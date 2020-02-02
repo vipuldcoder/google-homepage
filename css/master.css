@@ -1,6 +1,77 @@
-/*CSS Stylesheet*/
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    opacity: 0.7;
+}
+footer ul {
+    overflow: hidden;
+    background-color: #f2f2f2;
+    margin-top: 350px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    font-size: 15px;
+    color: rgb(190, 187, 187);
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.alineacion-derecha {
+    float: right;
+}
+
+img {
+
+    padding-top: 240px;
+    padding-left: 100px;
+    padding-right: 0px;
+}
+
+.sombreado {
+
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    height: 40px;
+    padding: 0px 16px;
+    margin: 25px 10px 25px 10px;
+}
+
+.sombreado:hover {
+    color: black;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.buscador {
+
+    border-radius: 24px;
+    border:1px solid #dfe1e5;
+    height: 40px;
+    width: 500px;
+}
+.buscador:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.sing-in {
+    color: white;
+    background-color: rgb(48, 120, 236);
+    padding: 8px 12px 8px 12px;
+    margin-left: 6px;
 }
